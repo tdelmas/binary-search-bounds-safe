@@ -1,7 +1,7 @@
 {
-  "name": "binary-search-bounds",
-  "version": "2.0.4",
-  "description": "Better binary searching",
+  "name": "binary-search-bounds-safe",
+  "version": "3.0.0",
+  "description": "Better binary searching, safe for the web (without eval)",
   "main": "search-bounds.js",
   "typings": "search-bounds.d.ts",
   "directories": {
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mikolalysenko/binary-search-bounds.git"
+    "url": "git://github.com/tdelmas/binary-search-bounds-safe.git"
   },
   "keywords": [
     "binary",
@@ -28,9 +28,9 @@
     "greatest",
     "upper"
   ],
-  "author": "Mikola Lysenko",
+  "author": "Tom Delmas",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mikolalysenko/binary-search-bounds/issues"
+    "url": "https://github.com/tdelmas/binary-search-bounds-safe/issues"
   }
 }

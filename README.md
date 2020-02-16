@@ -2,6 +2,8 @@ binary-search-bounds
 ====================
 Binary search on arrays for predecessor, successor and range queries.
 
+This fork of https://github.com/mikolalysenko/binary-search-bounds allows strict CSP without `unsafe-eval`.
+
 ### Rationale
 
 The main reason for using a [binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm) or ordered set data structure instead of a hash map is to support fast predecessor/successor queries.  Besides this library, I am aware of no other modules on npm which implement these semantics (making them effectively useless)!!!  `binary-search-bounds` corrects this sad state of affairs.
@@ -109,4 +111,6 @@ The following comments apply to the above methods:
 * `bounds.eq` will return the first found item with the given index.  It can be a little faster than the other methods if you just want to find some random match and do not care where it is.
 
 ## Credits
-(c) 2013-2015 Mikola Lysenko. MIT License
+(c) 2013-2015 Mikola Lysenko
+(c) 2020 Tom Delmas
+MIT License
